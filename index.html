@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f6f8" />
+    <title>Google Cloud Summit Poland 2026 — agenda równoległa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-view="grid">
+    <header class="topbar">
+      <div class="topbar__row">
+        <div class="brand">
+          <p class="eyebrow">Google Cloud Summit Poland 2026</p>
+          <h1>Agenda równoległa</h1>
+          <p class="meta" id="event-meta"></p>
+        </div>
+        <div class="views" role="tablist" aria-label="Widok">
+          <button type="button" class="views__btn" role="tab" data-view="grid">Siatka</button>
+          <button type="button" class="views__btn" role="tab" data-view="list">Lista</button>
+          <button type="button" class="views__btn" role="tab" data-view="plan">
+            Mój plan <span class="views__count" id="plan-count">0</span>
+          </button>
+        </div>
+      </div>
+      <div class="toolbar" id="toolbar">
+        <label class="search">
+          <span class="sr-only">Szukaj</span>
+          <input id="search" type="search" placeholder="Szukaj sesji, firmy, prelegenta" />
+        </label>
+        <div class="chips" id="track-chips" role="group" aria-label="Ścieżki"></div>
+        <label class="toggle">
+          <input type="checkbox" id="hide-breaks" />
+          <span>Ukryj przerwy</span>
+        </label>
+      </div>
+    </header>
+
+    <main class="board" id="grid-scroll">
+      <div class="schedule" id="schedule" aria-label="Harmonogram"></div>
+    </main>
+
+    <div class="backdrop" id="backdrop" hidden></div>
+    <aside class="drawer" id="detail" aria-live="polite" aria-hidden="true">
+      <div class="drawer__bar">
+        <button type="button" class="drawer__close" id="drawer-close">Zamknij</button>
+        <button type="button" class="pick pick--wide" id="drawer-pick" hidden></button>
+      </div>
+      <div id="detail-body"></div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

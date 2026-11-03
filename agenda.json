@@ -1,0 +1,2111 @@
+{
+  "event": {
+    "name": "Google Cloud Summit Poland 2026",
+    "date": "2026-11-04",
+    "dateLabel": "4 listopada 2026",
+    "venue": "PGE Narodowy",
+    "city": "Warszawa",
+    "tz": "Europe/Warsaw",
+    "start": "08:00",
+    "end": "17:45",
+    "tagline": "Explore the blueprint for an AI-powered future."
+  },
+  "tracks": [
+    {
+      "id": "hype",
+      "name": "Beyond the Hype: Tangible Business Wins",
+      "short": "Beyond the Hype",
+      "sessions": [
+        {
+          "id": "hype-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hype-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "hype-3",
+          "title": "Talk to Me: How AI Learned to Listen",
+          "start": "11:30",
+          "end": "12:00",
+          "kind": "session",
+          "description": "AI Just Found Its Voice For decades, people have spoken to machines in the machine’s language: keyboards, menus and touchscreens. AI is reversing that. Beyond text, voice is now one of the fastest-moving areas of AI, and speech is becoming the most natural interface between people and technology. In this session, Michal Filip Kowalik of ElevenLabs traces how voice AI moved from robotic text-to-speech to expressive, real-time conversation, and why this marks the start of the Voice Agent era: AI that listens, responds and completes tasks through natural dialogue. Michal will also walk through a few real-life examples of how the technology actually works.",
+          "speakers": [
+            {
+              "name": "Michal Filip Kowalik",
+              "title": "GTM Partnerships EMEA",
+              "company": "ElevenLabs"
+            },
+            {
+              "name": "Ania Chrzanowska-Kovacs",
+              "title": "GTM",
+              "company": "ElevenLabs"
+            }
+          ]
+        },
+        {
+          "id": "hype-4",
+          "title": "Platform Engineering in the modern banking - App Modernization at Scale",
+          "start": "12:00",
+          "end": "12:15",
+          "kind": "session",
+          "description": "Omówimy, w jaki sposób Platform Engineering zmienia tradycyjny model dostarczania infrastruktury i oprogramowania w Banku Pekao S.A poprzez wykorzystanie Infrastructure as Code, GitOps, zintegrowanych procesów CI/CD, scentralizowanego observability oraz mechanizmów DevSecOps. Pokażemy przykłady automatyzacji środowisk, standaryzacji procesów oraz wdrażania usług chmurowych i kontenerowych w modelu platformowym.",
+          "speakers": [
+            {
+              "name": "Tomasz Holubowicz",
+              "title": "IT Director",
+              "company": "Bank Pekao"
+            },
+            {
+              "name": "Slawomir Miazek",
+              "title": "Kierownik Zespołu DevOps",
+              "company": "Bank Pekao"
+            }
+          ]
+        },
+        {
+          "id": "hype-5",
+          "title": "From LiveChat to Text: We bet a 20-year-old company on Google Cloud and AI agents",
+          "start": "12:15",
+          "end": "12:30",
+          "kind": "session",
+          "description": "We run a profitable, 20-year-old public company from Wrocław. Thirty thousand businesses worldwide use our products: LiveChat, ChatBot, HelpDesk. Then we took it apart and rebuilt it on Google Cloud, in three moves. Infrastructure first: from bare metal to 100% GCP since June 2025, with 5,500 CPUs, 25 TB of RAM and a petabyte of data on GKE, real-time customer monitoring on Spanner, and analytics on BigQuery. Product second: Text, an AI customer service engine where agents qualify leads, recommend products, and close sales, running on both OpenAI and Gemini models for redundancy. Everyone races to cut costs with AI; we race to create profit. Company third: most of our merged code is AI-authored today, services and infrastructure alike, and a human still owns every merge. The business case with receipts: what each move cost, what it returned, what broke. No theory. We did the thing.",
+          "speakers": [
+            {
+              "name": "Maciej Walaszczyk",
+              "title": "CTO",
+              "company": "Text"
+            }
+          ]
+        },
+        {
+          "id": "hype-6",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hype-7",
+          "title": "Data-Driven Coffee: How Coffeedesk Serves the Ultimate Customer Experience with Google Cloud",
+          "start": "14:00",
+          "end": "14:30",
+          "kind": "session",
+          "description": "The specialty coffee world thrives on personal connection and exceptional quality. But how do you keep that cozy, artisanal feel when your online store handles thousands of orders and physical locations are opening nationwide? You build a cloud-powered digital backbone. Using Google Cloud—specifically BigQuery and Looker—Coffeedesk bridged the gap between online and offline operations to create a single source of truth. Out with manual Excel crunching; in with instant, real-time analytics for the whole team. Today, Coffeedesk does far more than sell coffee. It predicts customer demand, optimizes inventory management, and crafts personalized offers that bring the warmth of a neighborhood coffee shop straight to a mobile screen. Join this session to discover how leveraging cloud infrastructure can scale a niche brand into a market leader without losing a single gram of what makes its Customer Experience special.",
+          "speakers": [
+            {
+              "name": "Piotr Wasniewski",
+              "title": "CFO",
+              "company": "Coffee Desk"
+            },
+            {
+              "name": "Marcin Sałaciński",
+              "title": "CTO",
+              "company": "Coffee Desk"
+            },
+            {
+              "name": "Mariusz Zysk",
+              "title": "Cloud Data & AI Leader",
+              "company": "FOTC"
+            }
+          ]
+        },
+        {
+          "id": "hype-8",
+          "title": "Dociekliwość, odwaga, sprawczość: jak przywództwo „lead by example” i AI uwalniają potencjał zespołów w DOZ",
+          "start": "14:30",
+          "end": "14:45",
+          "kind": "session",
+          "description": "Zaczniemy od lidera, bo to jego zaangażowanie i przykład najczęściej przesądzają o tym, czy AI naprawdę zadomowi się w zespole. Na przykładzie wdrożenia nowego systemu ERP: projektu wagi ciężkiej, pokażemy, jak AI przyspiesza pracę na każdym etapie: od analizy i dokumentacji po przygotowanie testów. Na koniec opowiemy, jak z Gemini Enterprise rozwijamy rozwiązania na coraz większą skalę: od osobistych asystentów i agentów no-code po systemy multiagentowe.",
+          "speakers": [
+            {
+              "name": "Katarzyna Żabicka",
+              "title": "Dyrektor IT ds. Utrzymania i Rozwoju Systemów",
+              "company": "DOZ"
+            },
+            {
+              "name": "Mateusz Więcek",
+              "title": "Lider Zespołu Rozwiązań AI/ML",
+              "company": "DOZ"
+            }
+          ]
+        },
+        {
+          "id": "hype-9",
+          "title": "LPP Agentic Platform: AI Agents as the First Line of Analytics",
+          "start": "14:45",
+          "end": "15:00",
+          "kind": "session",
+          "description": "Before an analyst even opens a dashboard, the question often goes to an AI agent first. In this session we present the Agentic Platform — a production system where specialized agents act as the \"first line of analytics\": they reach into the data themselves, answer business questions, generate reports, and email them out — even on a recurring schedule, with no human in the loop.",
+          "speakers": [
+            {
+              "name": "Rafał Krzynówek",
+              "title": "Data & AI | Analytics Team Manager",
+              "company": "LPP"
+            }
+          ]
+        },
+        {
+          "id": "hype-10",
+          "title": "Coffee Break",
+          "start": "15:00",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hype-11",
+          "title": "OracleDB@Google Cloud: Why Google?",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "Moving enterprise AI from a cool experiment into a scalable production reality requires two things: data and infrastructure. Unfortunately, infrastructure bottlenecks and fragmented tools usually get in the way. Enter Oracle Database@Google Cloud—a game-changing partnership that unites Google’s world-class AI with Oracle’s premier database performance. Join this session to see how companies are running the latest Oracle database services natively inside Google Cloud data centers. By leveraging a low-latency, cost-effective infrastructure, organizations can seamlessly feed their core data into Google DeepMind's Gemini models. Featuring a firsthand look into Diagnostyka, Poland's largest medical laboratory network, their IT Director of Infrastructure and Cloud will share the critical learnings behind their migration. Discover why they chose this unified solution, how they overcame legacy performance bottlenecks, and how bridging Oracle data with Google Cloud has eliminated data silos, improved system performance, and laid a robust foundation for future data-driven healthcare innovation.",
+          "speakers": [
+            {
+              "name": "Marek Bogacki",
+              "title": "IT Director Infrastructure & Cloud",
+              "company": "Diagnostyka"
+            },
+            {
+              "name": "Grzegorz Walczak",
+              "title": "Customer Engineering Manager",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "hype-12",
+          "title": "Case study: Jak Answear.com zmienił dane CRM w predykcyjny silnik wzrostu wykorzystując GCP",
+          "start": "15:45",
+          "end": "16:00",
+          "kind": "session",
+          "description": "Przejście od optymalizacji krótkoterminowej do budowania długofalowej wartości klienta (LTV) wymaga sprawnego połączenia danych CRM z algorytmami reklamowymi. Podczas sesji przedstawimy case study wdrożenia przez Salestube architektury na Google Cloud Platform zasilającej Value-Based Bidding. Krok po kroku przejdziemy przez cały proces: od automatycznej orkiestracji surowych danych (Managed Airflow, Cloud Storage) do hurtowni BigQuery, gdzie modele Machine Learning prognozują LTV, sprzedaż netto i retencję. Pokażemy, jak zautomatyzowana pętla zwrotna przekazuje zaktualizowane dane (z uwzględnieniem odroczonych konwersji) do kampanii Performance Max oraz jak walidować wpływ modelowania predykcyjnego na wzrost wartości koszyka i lojalność klientów.",
+          "speakers": [
+            {
+              "name": "Sebastian Budacz",
+              "title": "SEM Team Leader",
+              "company": "Answear.com"
+            },
+            {
+              "name": "Michal Wrabel",
+              "title": "Intelligence Division Director",
+              "company": "Salestube"
+            }
+          ]
+        },
+        {
+          "id": "hype-13",
+          "title": "Building the Allegro Assistant: Product Strategy, Architecture, and Evaluation at Scale",
+          "start": "16:00",
+          "end": "16:15",
+          "kind": "session",
+          "description": "Deploying an Allegro Assistant requires tight alignment between product vision and engineering rigor. In this talk, we take you behind the scenes of building a real-world shopping assistant, sharing practical lessons learned on the journey from PoC to production at scale. We will explore key product decisions and our Google Cloud architecture, showing how to balance conversational GenAI with sales funnel guidance while navigating technical trade-offs. Additionally, we’ll cover our practical evaluation framework for LLM quality and hallucination mitigation.",
+          "speakers": [
+            {
+              "name": "Pawel Olszewski",
+              "title": "Tech Lead AI Shopping Assistant",
+              "company": "Allegro"
+            }
+          ]
+        },
+        {
+          "id": "hype-14",
+          "title": "Beyond the Hype: How DER TOUR Scaled Content Production and Lowered Costs with Generative AI",
+          "start": "16:15",
+          "end": "16:30",
+          "kind": "session",
+          "description": "In the highly competitive travel industry, captivating visual content is essential for driving bookings and inspiring travelers. However, traditional media production workflows are often costly, slow, and difficult to scale across global regions. Join this session to discover how DERTOUR partnered with Google Cloud to move beyond the AI hype and deliver tangible business outcomes. Learn how DERTOUR built a cutting-edge Image & Video Generation Platform using Google Gemini, Imagen, and Veo 3/3.1 to automatically transform 600–700 legacy hospitality photos into high-quality, authentic-looking marketing assets. Through this compelling customer story, we will explore the real-world business case, highlighting how adopting an AI-driven creation toolset enabled personalized promotional videos, enhanced imagery, faster production cycles, and significantly lower costs.",
+          "speakers": [
+            {
+              "name": "Matthias Ziener",
+              "title": "Manager, Global Services Delivery",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Piotr Gizinski",
+              "title": "Program Manager",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Richard Fussgänger",
+              "title": "CIO",
+              "company": "DER TOUR"
+            }
+          ]
+        },
+        {
+          "id": "hype-15",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hype-16",
+          "title": "Fireside chat: Co budować, a co kupować?",
+          "start": "16:45",
+          "end": "17:15",
+          "kind": "session",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Maciej Ciołek",
+              "title": "CRO & Co-Founder",
+              "company": "Zowie"
+            },
+            {
+              "name": "Dawid Telepski",
+              "title": "Contact Center Director - AI & RPA Expert",
+              "company": "LPP"
+            }
+          ]
+        },
+        {
+          "id": "hype-17",
+          "title": "The End of AI Slop: How Businesses Win with On-Brand AI Content Built on Google Cloud",
+          "start": "17:15",
+          "end": "17:30",
+          "kind": "session",
+          "description": "Every company can generate AI content now. Very few can actually use it: generic, off-brand output, “AI slop”, dies in brand and legal review and never ships. This is a customer story about fixing that with Google Cloud. DFIRST AI, a Polish company, built its AI content platform on Google Cloud with Gemini as the driver of its agentic workflows: Gemini interprets the brief, plans the campaign, orchestrates every step and generates the content, while the platform’s brand memory keeps each output on-brand. The businesses running on it see measurable results: a global marketing network cut content production costs by 60% across 7 offices, a state-owned national lottery ships AI-generated content in a regulated industry with a 100% compliance pass rate and zero incidents, and brands like L’Oréal and Canal+ produce on-brand campaigns in minutes instead of weeks. CEO and co-founder Rafal Tromczynski breaks down the pattern behind these wins and shares a practical playbook any marketing organization can apply.",
+          "speakers": [
+            {
+              "name": "Rafal Tromczynski",
+              "title": "CEO & Co-Founder",
+              "company": "Digitalfirst.ai"
+            }
+          ]
+        },
+        {
+          "id": "hype-18",
+          "title": "AI, które księguje bez ludzi: realny business case automatyzacji księgowości",
+          "start": "17:30",
+          "end": "17:45",
+          "kind": "session",
+          "description": "Podczas wystąpienia pokażemy, jak sztuczna inteligencja może przejąć najbardziej powtarzalne elementy procesu księgowego — od odczytu dokumentów, przez analizę kontekstu, po propozycję księgowania i rozliczenie transakcji. Na przykładzie platformy flowMEE pokażemy, jak wygląda księgowość w modelu „AI first”, gdzie człowiek nie wykonuje ręcznej pracy operacyjnej, tylko kontroluje wyjątki, decyzje i jakość procesu. Rozwiązanie budujemy w oparciu o modele LLM Google, w szczególności Gemini 3.5 Flash, oraz infrastrukturę Google Cloud. Chcemy pokazać, jak dzięki gotowym narzędziom, modelom AI i skalowalnej infrastrukturze można szybko przejść od pomysłu do realnego produktu, który automatyzuje konkretny proces biznesowy.",
+          "speakers": [
+            {
+              "name": "Kacper Tokarczyk",
+              "title": "Co-Founder",
+              "company": "autoMEE"
+            },
+            {
+              "name": "Rafał Antoszewski",
+              "title": "Chief Revenue Officer",
+              "company": "AutoMEE"
+            }
+          ]
+        },
+        {
+          "id": "hype-19",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "id": "hood",
+      "name": "Under the Hood: Real-World Implementations & Tech Insights",
+      "short": "Under the Hood",
+      "sessions": [
+        {
+          "id": "hood-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hood-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "hood-3",
+          "title": "Coffee Break",
+          "start": "11:00",
+          "end": "11:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hood-4",
+          "title": "From cost efficiency to competitive advantage. How to create value for customers and win with competition with Agentic AI",
+          "start": "11:30",
+          "end": "12:00",
+          "kind": "session",
+          "description": "In this session Deloitte will share how financial institutions can leverage Google Cloud technologies to create competitive advantage and overtake competition. Even in a highly regulated environment we are able to change the rules of the game and significantly improve value proposition for our clients. Attendees will gain practical insights into the journey from strategy to implementation of AI-powered solutions, key lessons learned, and the organizational factors required to scale AI adoption successfully.",
+          "speakers": [
+            {
+              "name": "Tomasz Filipek",
+              "title": "AI Director",
+              "company": "Deloitte"
+            }
+          ]
+        },
+        {
+          "id": "hood-5",
+          "title": "Od e-laba do x-laba – jak przenieśliśmy diagnostykę laboratoryjną do Google Cloud bez zatrzymywania laboratoriów",
+          "start": "12:00",
+          "end": "12:15",
+          "kind": "session",
+          "description": "Laboratoria medyczne pracują w trybie 24/7 – nie ma tu miejsca na okna serwisowe, a tym samym na wymianę systemu. Jak w takich warunkach zmigrować serce operacyjne firmy? Podczas prezentacji opowiemy, jak zaprojektowaliśmy architekturę w Google Cloud Platform dla 78 mikroserwisów nowego systemu laboratoryjnego x-lab. Pokażemy również, jak wykorzystaliśmy Apache Kafka do synchronizacji zdarzeń, co pozwoliło staremu i nowemu systemowi działać równolegle, zapewniając płynną migrację bez przestoju w pracy laboratoriów.",
+          "speakers": [
+            {
+              "name": "Michał Baster",
+              "title": "Solution Architect",
+              "company": "Diagnostyka"
+            }
+          ]
+        },
+        {
+          "id": "hood-6",
+          "title": "From Postgres VMs to AlloyDB — and the AI agent we built along the way",
+          "start": "12:15",
+          "end": "12:30",
+          "kind": "session",
+          "description": "We ran Postgres on VMs for years. It worked — until it didn't scale, didn't self-heal, and every incident meant an SRE reading pg_stat_statements at 2am. This talk is about our migration to AlloyDB, the connection pooler that saved us from ourselves, and the agent we built on top of Query Insights that now does the boring parts of database SRE for us. Architecture, migration gotchas, and how an AI agent turned query tuning from a specialist skill into a self-service tool for every engineer.",
+          "speakers": [
+            {
+              "name": "Ziemowit Kluczynski",
+              "title": "PostgreSQL DBA / SRE",
+              "company": "Booksy"
+            },
+            {
+              "name": "Marcin Bednarek",
+              "title": "Site Reliability Engineer",
+              "company": "Booksy"
+            },
+            {
+              "name": "Adrian Jarczynski",
+              "title": "SRE Team Leader",
+              "company": "Booksy"
+            }
+          ]
+        },
+        {
+          "id": "hood-7",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hood-8",
+          "title": "How Google ADK Agents Transform Environment Alerts into Immediate Actions",
+          "start": "14:00",
+          "end": "14:15",
+          "kind": "session",
+          "description": "Passive dashboards can't prevent modern cloud outages. This presentation introduces an advanced architecture for continuous service auto-analysis using Google ADK. We explore how telemetry triggers an agent to initiate a 360-degree environment audit across Cloud Asset Inventory, Elastic, and Git. Once a root cause is found, the agent executes targeted actions (scaling or reconfiguration) to stabilize the system before it escalates, utilizing secure production guardrails.",
+          "speakers": [
+            {
+              "name": "Krzysztof Brzana",
+              "title": "DevOps Team Lead",
+              "company": "Vodeno"
+            },
+            {
+              "name": "Michał Skupień",
+              "title": "Senior Cloud Engineer",
+              "company": "Vodeno"
+            }
+          ]
+        },
+        {
+          "id": "hood-9",
+          "title": "From Function to Enterprise: What It Actually Takes to Run AI in Production",
+          "start": "14:15",
+          "end": "14:45",
+          "kind": "session",
+          "description": "There is a major gap between what AI can do and where enterprises are actually extracting value from it. Closing that gap takes execution, partnership, and a different approach. Drawing on 100+ deployments across 35+ markets, Paweł Osterreicher, General Manager Poland at Wonderful, breaks down what it takes to put AI into production across entire enterprises and workflows, including in Poland, where large organizations are moving beyond pilots and scaling AI across languages, legacy systems and business functions. The pattern is consistent: organizations move from AI in individual functions to AI across the whole enterprise, without giving up reliability or control. Attendees leave with a clear view of the infrastructure, integrations and implementation discipline that makes it work.",
+          "speakers": [
+            {
+              "name": "Pawel Osterreicher",
+              "title": "General Manager",
+              "company": "Wonderful"
+            }
+          ]
+        },
+        {
+          "id": "hood-10",
+          "title": "SilkyPulse – Wieloagentowe RCA z Gemini",
+          "start": "14:45",
+          "end": "15:00",
+          "kind": "session",
+          "description": "Platforma do analizy incydentów wykorzystująca Gemini, Vertex AI RAG i architekturę wieloagentową prowadzi analizy na podstawie bieżących danych z wielu systemów, zmian wprowadzanych w infrastrukturze / aplikacjach oraz innych danych historycznych. Agenci równolegle zbierający dane, korelują fakty, ostatecznie weryfikują wnioski oraz ich słuszności na zadane pytanie. Uruchamianie analiz jest automatyzowane poprzez triggery, którymi mogą być alerty lub wdrożenia na produkcję. Wnioski, czasy analiz oraz koszty prowadzonych analiz.",
+          "speakers": [
+            {
+              "name": "Mateusz Katana",
+              "title": "Senior DevOps Engineer",
+              "company": "LPP"
+            }
+          ]
+        },
+        {
+          "id": "hood-11",
+          "title": "Coffee Break",
+          "start": "15:00",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hood-12",
+          "title": "Two Towers, One Cloud: High-Throughput Recommendation Architecture at Allegro",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "What happens when ML models meet tens of thousands of RPS, dozens of placements, and millions of dynamic products? You either watch your infrastructure crumble, or you build a unified, hyper-scalable retrieval framework. At Allegro, we chose the latter, adapting a single Two-Tower model to handle everything from item similarity to inspirational discovery. By representing offers through rich textual and structured attributes, we built a low-maintenance, high-throughput powerhouse. Moving from theory to production, we will share how we deploy these models at a massive scale using Google Cloud Vector Search. You will learn how we automate updates with zero downtime using blue-green deployments, and how our observability setup provides instant access to critical metrics during production incidents.",
+          "speakers": [
+            {
+              "name": "Aleksandra Osowska-Kurczab",
+              "title": "Machine Learning Manager",
+              "company": "Allegro"
+            },
+            {
+              "name": "Jakub Demianowski",
+              "title": "Senior Data Engineer",
+              "company": "Allegro"
+            }
+          ]
+        },
+        {
+          "id": "hood-13",
+          "title": "Rethinking the IDE for Coding Agents",
+          "start": "15:45",
+          "end": "16:00",
+          "kind": "session",
+          "description": "This session explores how JetBrains is evolving the IDE for agentic development through Air. Practical examples reveal the product decisions and tradeoffs behind new developer workflows, from delegating tasks to investigating results. Attendees will learn why the IDE still matters when agents write code, and how it helps developers stay in control of the software they ship.",
+          "speakers": [
+            {
+              "name": "Gleb Melnikov",
+              "title": "Head of Product",
+              "company": "JetBrains"
+            }
+          ]
+        },
+        {
+          "id": "hood-14",
+          "title": "Slicing the Elephant: Modernizing Massive Industrial Codebases with Graph-Backed Agentic Workflows",
+          "start": "16:00",
+          "end": "16:15",
+          "kind": "session",
+          "description": "Software is the nervous system of industrial automation, but modernizing legacy codebases that span hundreds of millions of lines is a monumental challenge. Standard RAG often falls short because code isn't just text—it has inherent structure. Discover how Siemens and Google Cloud built \"Knowledge Fabric,\" an AI system that powers an autonomous, multi-agent Software Development Life Cycle (SDLC). We will explore how combining Spanner Graph, the Google Agent Development Kit, and Gemini allows specialized AI agents to reason across code, documentation, and tickets to safely and efficiently refactor legacy systems.",
+          "speakers": [
+            {
+              "name": "Kacper Kulczak",
+              "title": "AI Engineer",
+              "company": "Google"
+            },
+            {
+              "name": "Tomasz Świtoń",
+              "title": "Staff Software Engineer",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Agata Gołębiowska",
+              "title": "AI Engineer",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "hood-15",
+          "title": "AI Meets SAP: The MCP Standard in Modern Enterprise Architecture. Building a secure bridge between LLM agents and ERP processes using the MCP standard and SAP Integration Suite.",
+          "start": "16:15",
+          "end": "16:30",
+          "kind": "session",
+          "description": "Attendees will learn how to design and deploy an MCP server that acts as a secure, standardized bridge between AI agents and SAP enterprise workflows. Through a detailed real-world case study breakdown, we will showcase how an AI agent can dynamically discover tools, query live SAP data, and trigger business processes via SAP Integration Suite iFlows. We will cover end-to-end architecture, identity & access control (OAuth 2.0, governance), and key lessons learned when scaling agentic AI across enterprise systems. The solution leverages the GCP ecosystem and utilizes Gemini Enterprise.",
+          "speakers": [
+            {
+              "name": "Michal Florczyk",
+              "title": "CEO",
+              "company": "7Technology"
+            },
+            {
+              "name": "Kamil Ogrodowski",
+              "title": "SAP & AI Solutions Architect",
+              "company": "7Technology"
+            }
+          ]
+        },
+        {
+          "id": "hood-16",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "hood-17",
+          "title": "Rok, w którym AI budowało asystenta AI. Lekcje z eSky MAIA na Google ADK",
+          "start": "16:45",
+          "end": "17:00",
+          "kind": "session",
+          "description": "Od roku rozwijamy eSky MAIA – asystenta podróży zbudowanego na Google ADK i Gemini, który codziennie rozmawia z klientami eSky. Dużą część jego kodu piszą agenci AI, więc uczymy się po obu stronach: jak budować agenta i jak budować z agentami. Pokażemy, co sprawdziło się na produkcji – od guardrails i pluginów ADK, przez testy E2E niedeterministycznego modelu, po ocenę jakości każdej rozmowy i KPI, po których poznajemy, czy agent naprawdę pomaga klientom.",
+          "speakers": [
+            {
+              "name": "Tomasz Przebieracz",
+              "title": "Engineering Manager",
+              "company": "eSky Group"
+            },
+            {
+              "name": "Jarosław Dąbrowski",
+              "title": "Flights Content Tech Lead",
+              "company": "eSKY Group"
+            }
+          ]
+        },
+        {
+          "id": "hood-18",
+          "title": "Oracle AI Database@Google Cloud, Where High Value Data Meets Powerful AI",
+          "start": "17:00",
+          "end": "17:15",
+          "kind": "session",
+          "description": "AI needs trusted, governed enterprise data. Discover how Oracle AI Database@Google Cloud brings Oracle’s database platform together with Google Cloud’s full-stack AI capabilities, helping organizations migrate and modernize business-critical workloads while unlocking AI, analytics, search, and agent experiences. Learn how to connect live Oracle data securely to Gemini Enterprise, extend your lakehouse and synchronize data in real time with Oracle GoldenGate.",
+          "speakers": [
+            {
+              "name": "Tomasz Zeglen",
+              "title": "Senior Manager, Account Cloud Engineering",
+              "company": "Oracle"
+            },
+            {
+              "name": "Melanie Benham",
+              "title": "EMEA DB@Multicloud Tiger Team Leader",
+              "company": "Oracle"
+            }
+          ]
+        },
+        {
+          "id": "hood-19",
+          "title": "Agentic Memory at Scale: Rebuilding 100M Tokens from 400K on Gemini Flash",
+          "start": "17:15",
+          "end": "17:30",
+          "kind": "session",
+          "description": "Letting your agent hit MCP/CLI integrations burns tokens during test time with no quality promise. Pre-processing fixes that. At Harmix we treat memory as state over time and built a pipeline that rebuilds up to 100M tokens of input from a 400K-token context with no loss. It keeps memory in three forms at once, then runs conflict detection across them so the store stays consistent as it grows. This session shows where the token savings come from, how the compression works and how the work splits between gemini-3.5-flash and gemini-3.1-flash-lite with plain code handling the deduplication. You leave knowing how to build a memory layer that scales without paying for every past token on every call.",
+          "speakers": [
+            {
+              "name": "Vitalii Ratushnyi",
+              "title": "Research Engineer",
+              "company": "Harmix Inc."
+            }
+          ]
+        },
+        {
+          "id": "hood-20",
+          "title": "How HSBC Scaled Complex Multi-Agent Capital Pricing Workflows with Gemini and ADK",
+          "start": "17:30",
+          "end": "17:45",
+          "kind": "session",
+          "description": "When enterprise generative AI transitions from simple chatbots to business-critical automation engines, standard prompt architectures instantly break under schema complexity. For large global financial institutions like HSBC, building a multi-agent solution to automate capital pricing scenarios means navigating hundreds of dynamic financial parameters, business rules, and shifting API schemas without risking \"Attention Diffusion\" or high token overhead. Go under the hood of HSBC’s innovative AI architecture built natively on the Google Agent Development Kit (ADK) and Gemini Flash. This session unveils how HSBC implemented a Context-Aware Polymorphic Schema Validation pattern to orchestrate a two-agent topology (Portfolio Coordinator and Simulator). Learn how they separate core reasoning from data structures to execute \"Just-in-Time\" schema validation and field enrichment before triggering heavy external financial calculations (ORC Engine), enabling Relationship Managers (RMs) to safely evaluate and optimize asset portfolios in real time.",
+          "speakers": [
+            {
+              "name": "Rafał Gielczowski",
+              "title": "Lead AI Engineer",
+              "company": "HSBC"
+            },
+            {
+              "name": "Hasan Rafiq",
+              "title": "Senior AI Engineer",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "hood-21",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "id": "decoding",
+      "name": "Decoding AI: Practical Applications & Future Directions",
+      "short": "Decoding AI",
+      "sessions": [
+        {
+          "id": "decoding-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "decoding-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "decoding-3",
+          "title": "Coffee Break",
+          "start": "11:00",
+          "end": "11:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "decoding-4",
+          "title": "Agents in production: an SRE's field guide",
+          "start": "11:30",
+          "end": "11:45",
+          "kind": "session",
+          "description": "Autonomous AI agents are the new microservices — except they're non-deterministic, expensive, and hard to observe. This session shows how our SRE team designs, ships, and operates a production multi-agent platform on Gemini: orchestration across specialized agents, state and cost management, RAG-based integration with internal systems, and observability that goes beyond traditional APM. Real architecture, real trade-offs, real numbers — for engineers building autonomous systems that need to survive Monday morning.",
+          "speakers": [
+            {
+              "name": "Karol Orlamowski",
+              "title": "DevOps Engineer",
+              "company": "Booksy"
+            },
+            {
+              "name": "Paweł Wojciukiewicz",
+              "title": "Senior SRE Engineer",
+              "company": "Booksy"
+            }
+          ]
+        },
+        {
+          "id": "decoding-5",
+          "title": "How custom build agents are transforming Comarch ERP user experience?",
+          "start": "11:45",
+          "end": "12:00",
+          "kind": "session",
+          "description": "Comarch built 30 ERP Agents that are transforming customer experience of the Comarch technology. The Agents are build in within the AI Hub run on GCP, additionally Comarch is building agents using ADK, Cloud run and Gemini. Speakers: Kamil Migacz, Comarch SA",
+          "speakers": [
+            {
+              "name": "Kamil Migacz",
+              "title": "Enterprise Technology Officer",
+              "company": "Comarch AS"
+            }
+          ]
+        },
+        {
+          "id": "decoding-6",
+          "title": "Generative AI for Creative Cinema",
+          "start": "12:00",
+          "end": "12:30",
+          "kind": "session",
+          "description": "Discover how generative AI is reshaping creative cinema, from idea development to production and audience experiences. In this on-stage conversation between PwC and the client at Google Cloud Summit Poland, we will explore practical applications of AI in filmmaking, with Gemini Enterprise Agent Platform at the core of the solution. The session will highlight real-world innovation, creative impact, and future directions for AI-powered storytelling.",
+          "speakers": [
+            {
+              "name": "Mariusz Strzelecki",
+              "title": "Google Cloud Practice Lead",
+              "company": "PwC"
+            },
+            {
+              "name": "Piotr Ziemkiewicz",
+              "title": "Google Cloud Delivery Manager",
+              "company": "PwC"
+            },
+            {
+              "name": "Marcin Perzyna",
+              "title": "CEO",
+              "company": "WOW! SHOW"
+            },
+            {
+              "name": "Rafał Osmólski",
+              "title": "Chief AI Officer",
+              "company": "WOW! SHOW"
+            }
+          ]
+        },
+        {
+          "id": "decoding-7",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "decoding-8",
+          "title": "The Rise of Agentic AI",
+          "start": "14:00",
+          "end": "14:15",
+          "kind": "session",
+          "description": "Moving Beyond Chatbots to Smart Assistants That Help You Get Work Done. Deep dive into the Gemini Agent Platform.",
+          "speakers": [
+            {
+              "name": "Mike Skowron",
+              "title": "AI GTM Lead, CEE",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "decoding-9",
+          "title": "Agents are back! Today's mission is to make your contact center more user-friendly and effective.",
+          "start": "14:15",
+          "end": "14:30",
+          "kind": "session",
+          "description": "Gemini Enterprise integrated into an MS-centric environment—but also connected to a contact center system? Absolutely! We’ll explain how to use Gemini Enterprise for Customer Experience to bring about a positive revolution and boost your customers’ satisfaction.",
+          "speakers": [
+            {
+              "name": "Barbara Brandon",
+              "title": "Business Development Manager",
+              "company": "Sii Polska"
+            },
+            {
+              "name": "Hubert Zęgota",
+              "title": "Solution Architect",
+              "company": "Sii Polska"
+            }
+          ]
+        },
+        {
+          "id": "decoding-10",
+          "title": "Evals-Driven AI Development: Jak AI-first zmienia sposób budowy w InPost wieloagentowego e-commerce na skalę milionów użytkowników",
+          "start": "14:30",
+          "end": "14:45",
+          "kind": "session",
+          "description": "Przejście od koncepcji LLM do stabilnego, produkcyjnego systemu agentowego wymaga rewolucji w podejściu do inżynierii i testowania. W InPost zastąpiliśmy subiektywną ocenę „na oko” podejściem Evals-Driven Development (EDD). Podczas prelekcji uchylimy rąbka tajemnicy architektury projektu konwersacyjnego ekosystemu e-commerce, jak współpracuje biznes i engineering, i co znaczy funkcja produktu w czasach AI.",
+          "speakers": [
+            {
+              "name": "Łukasz Dziekan",
+              "title": "Financial Services Business Director",
+              "company": "InPost"
+            },
+            {
+              "name": "Jan Kościałkowski",
+              "title": "AI Engineering Director, Consumer AI Products",
+              "company": "InPost"
+            }
+          ]
+        },
+        {
+          "id": "decoding-11",
+          "title": "Coffee Break",
+          "start": "14:45",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "decoding-12",
+          "title": "AI-Driven Modernization From Technical Debt to Competitive Advantage",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "Technical debt cannot be eliminated by simply translating legacy code into a new technology stack. Migrating Oracle logic to BigQuery without understanding the underlying business rules only moves the same complexity to a different platform. In this session, we will share how GFT applies AI to support the modernization of a critical banking process as part of an Oracle-to-Google Cloud transformation. Rather than focusing on code conversion, the project begins with recovering business knowledge hidden in legacy Oracle procedures, validating documentation, identifying dependencies, and creating reliable specifications and tests before migration. Using AI together with Google Cloud technologies, including BigQuery, this approach helps organizations regain control over complex legacy systems, reduce dependency on individual experts, and build a solid foundation for cloud modernization. The session will also discuss practical challenges encountered during AI-assisted modernization, explain why business knowledge recovery is essential to reducing technical debt, and share lessons learned from applying this approach in a real-world banking modernization initiative.",
+          "speakers": [
+            {
+              "name": "Piotr Gwiazda",
+              "title": "Principal Solution Architect",
+              "company": "GFT Poland"
+            }
+          ]
+        },
+        {
+          "id": "decoding-13",
+          "title": "From Assistants to Agents: Building the Agentic Workplace with Gemini & Google Workspace",
+          "start": "15:45",
+          "end": "16:15",
+          "kind": "session",
+          "description": "Moving Beyond Chatbots to Smart Assistants That Help You Get Work Done. Deep dive into the Gemini Agent within Google Workspace.",
+          "speakers": [
+            {
+              "name": "Matt Maggs",
+              "title": "Director, Google Workspace EMEA North",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "decoding-14",
+          "title": "Risk 360: From BPMN Decision Workflows to Agentic Risk Management",
+          "start": "16:15",
+          "end": "16:30",
+          "kind": "session",
+          "description": "AI in credit risk should not mean handing over credit decisions to autonomous agents. In regulated financial services, credit decisions must remain explainable, controlled and aligned with approved risk policies. In this session, we will present the development direction of the Risk 360 platform: from automated decision workflows based on BPMN 2.0, business rules and external data integrations, towards agentic risk management. We will discuss the concept of an AI Credit Portfolio Manager: an agent that monitors new credit production, tracks portfolio quality, detects changes in key risk indicators, analyses possible causes, prepares reports, simulates policy changes, suggests A/B tests and supports the implementation of approved improvements. A key part of the session will be the practical challenge behind this vision: agentic risk management only works well when processes, data, metrics and KPIs are clearly defined. Banks and lenders often have fragmented data, different definitions of the same metric and complex approval processes for sharing operational and risk data. This is not a side issue — it is the foundation. AI works best when it operates on structured processes, trusted data and well-defined business logic. The main message is clear: the agent should not be the final decision-maker. The human risk expert remains the owner of policy, validation and final approval. The agent acts as an analytical partner that helps risk teams understand what is happening, why it is happening and what could be improved.",
+          "speakers": [
+            {
+              "name": "Karol Dziasek",
+              "title": "Chief Innovation Officer & Co-Founder",
+              "company": "Self Learning Solutions"
+            },
+            {
+              "name": "Przemysław Kamiński",
+              "title": "CEO & Co-Founder",
+              "company": "Self Learning Solutions"
+            }
+          ]
+        },
+        {
+          "id": "decoding-15",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "decoding-16",
+          "title": "Armoring the Model, Saving the Budget: Enterprise-Grade Security Controls for Vertex AI",
+          "start": "16:45",
+          "end": "17:00",
+          "kind": "session",
+          "description": "Deploying generative AI at an enterprise scale requires more than just high-performing models—it demands bulletproof security and rigorous cost management. Vulnerabilities like Prompt Injection and financial risks like Denial of Wallet pose genuine threats to production LLM initiatives. This session shows how to architect a multi-layered defense system within Google Cloud Platform (GCP). Discover how combining Google Cloud Armor and Model Armor, implementing advanced rate-limiting, and applying strategic FinOps practices allows you to scale Vertex AI safely without risking your organization's bottom line.",
+          "speakers": [
+            {
+              "name": "Piotr Bojdoł",
+              "title": "Head of Cloud Infrastructure & Cyber Security",
+              "company": "Vodeno"
+            },
+            {
+              "name": "Wojciech Ptasiński",
+              "title": "AI Lead & AI Governance",
+              "company": "Vodeno"
+            }
+          ]
+        },
+        {
+          "id": "decoding-17",
+          "title": "Actionable Insights: How AI Agents Actually Deliver SaaS's Holy Graal",
+          "start": "17:00",
+          "end": "17:15",
+          "kind": "session",
+          "description": "Most AI tools return answers. The best ones return the right next question. In this session we break down how Manago.ai, a Polish MarTech platform, built an autonomous agent that analyzes live campaign data, identifies the exact audience segment it's currently failing to reach, and proposes the next best move, not a canned recommendation. Backed by real user research showing that relevance beats speed for decision-makers, we walk through a demo of the agent going from raw dashboard data to a fully built, optimized email campaign targeting a segment nobody knew existed. You'll leave with a concrete principle for building your own AI agents: drop the rigid rulebook, let the agent interpret data on its own terms, and watch the value compound.",
+          "speakers": [
+            {
+              "name": "Tomasz Ramus",
+              "title": "Senior AI Product Manager",
+              "company": "Manago.ai"
+            }
+          ]
+        },
+        {
+          "id": "decoding-18",
+          "title": "How Jooble Sped Up Market Expansion with AI Agents Powered by Gemini",
+          "start": "17:15",
+          "end": "17:30",
+          "kind": "session",
+          "description": "What does it take for a non-technical team to ship production AI agents? Jooble, a global job search platform used daily by millions across 66 countries, partnered with Cloudfresh, a Google Cloud Premier Partner, turning its relevance analysts into an in-house build shop on Gemini Enterprise Agent Platform. The payoff: taxonomy generation for a new country dropped from six months to two weeks, at half the cost. Come hear what got built, three early mistakes, and a checklist for non-technical teams starting on Agent Platform.",
+          "speakers": [
+            {
+              "name": "Janusz Wrzosek",
+              "title": "DevOps Expert",
+              "company": "Cloudfresh"
+            },
+            {
+              "name": "Alla Yarema",
+              "title": "Relevance Team Lead",
+              "company": "Jooble"
+            }
+          ]
+        },
+        {
+          "id": "decoding-19",
+          "title": "Agentic SDLC with Knowledge Graph",
+          "start": "17:30",
+          "end": "17:45",
+          "kind": "session",
+          "description": "AI software engineering agents hold immense promise, but their reliability depends entirely on context quality. Standard flat RAG setups cause hallucinations because they lack codebase structural context. In this session, we will explore how to build a reliable agentic SDLC using Spanner Graph, Antigravity, and Gemini Enterprise. We will discuss how to ingest codebases and documentation into an interconnected Knowledge Graph to supply agents with structurally relevant context. Combining slides with a live demo of a multi-agent system, this session shares best practices for agentic software engineering. We will draw on real-world success, showing how this approach built in collaboration between Google Cloud and Siemens resulted in unlocking immense innovation potential for Siemens by freeing up developers' time and increasing their productivity.",
+          "speakers": [
+            {
+              "name": "Tomasz Świtoń",
+              "title": "Staff Software Engineer",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Agata Gołębiowska",
+              "title": "AI Engineer",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Kacper Kulczak",
+              "title": "AI Engineer",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "decoding-20",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "id": "live",
+      "name": "Google Cloud Live: In-Depth Demos & Expert Q&A",
+      "short": "Cloud Live",
+      "sessions": [
+        {
+          "id": "live-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "live-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "live-3",
+          "title": "Coffee Break",
+          "start": "11:00",
+          "end": "11:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "live-4",
+          "title": "Building scalable AI Hypercomputer with GCP Cluster Toolkit",
+          "start": "11:30",
+          "end": "12:00",
+          "kind": "session",
+          "description": "The line between traditional High-Performance Computing (HPC) and modern AI infrastructure has disappeared. Today, the same underlying architectures used for complex fluid dynamics are powering the training of large neural networks. However, provisioning and managing the infrastructure to support these workloads often remains a manual, time-consuming bottleneck for engineering teams. In this session, we will demystify the deployment of production ready AI infrastructure. We will walk through how to build an auto-scaling \"\"AI Hypercomputer\"\" on Google Cloud using the open-source cluster-toolkit. We will highlight a real-world Life Sciences case study, demonstrating how a customer leveraged this exact Infrastructure as Code (IaC) blueprint to deploy a Slurm cluster for accelerating drug discovery and protein analysis—reducing infrastructure overhead and speeding up time-to-insight. Finally, we will run a live CPU vs. GPU performance benchmark on a pre-baked cluster and provide the exact open-source IaC blueprint (using cluster-toolkit) so you can deploy your own hardware-accelerated environment today.",
+          "speakers": [
+            {
+              "name": "Mangal Hari",
+              "title": "Technical Solutions Consultant",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Andy Bubune Amewuda",
+              "title": "Technical Solutions Consultant",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "live-5",
+          "title": "It takes a village to grow… an app",
+          "start": "12:00",
+          "end": "12:30",
+          "kind": "session",
+          "description": "Building complex software requires more than a single stateless LLM assistant; it takes a specialized community working in harmony. This session takes you behind the scenes of AgilAI—a fully autonomous, multi-agent synthetic Scrum team (Product Owner, Scrum Master, Tech Lead, Developer, and QA). Demo included! We will demonstrate how Google Agent Development Kit (ADK) 2.0 allows building dynamic workflows. You will see how agents leverage a self, and shared memory, self-organize, and negotiate peer-to-peer. Alongside the architecture, we will look at the hilarious, all-too-human dynamics of a silicon office.",
+          "speakers": [
+            {
+              "name": "Ewa Wojtach",
+              "title": "Cloud Infrastructure Engineer",
+              "company": "Google"
+            },
+            {
+              "name": "Mikołaj Stefaniak",
+              "title": "Strategic Cloud Engineer",
+              "company": "Google"
+            },
+            {
+              "name": "Łukasz Wojtach",
+              "title": "Software Engineer",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-6",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "live-7",
+          "title": "Where Agents Meet the Power Grid: Gemini, BigQuery ML and Google Earth Data in Production",
+          "start": "14:00",
+          "end": "14:30",
+          "kind": "session",
+          "description": "Energy utilities across Europe face the same pressures at once: ageing assets to inspect, reliability targets the regulator measures, connection queues that hold back new generation, and an operating picture assembled from data that arrives faster than anyone can read it. The technology to address this is no longer the constraint. Satellite and street-level imagery, market and grid data, weather forecasting and geospatial analysis are all available today — much of it public — and the models to interpret them are a service, not a research project. We demonstrate this live on a system built on Google Cloud. BigQuery holds imagery, grid topology and market data as queryable tables, joined geospatially and forecast with BigQuery ML. Gemini returns structured JSON against a fixed schema, turning street-level imagery into inspection records and natural-language questions into answers. Physics solvers and optimization run alongside, orchestrated as agents that reach a verdict rather than a dashboard.",
+          "speakers": [
+            {
+              "name": "Jan Biłyk",
+              "title": "Data Analytics Sales Specialist",
+              "company": "Google"
+            },
+            {
+              "name": "Łukasz Białek",
+              "title": "Customer Engineer",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-8",
+          "title": "The Governance Agent That Never Sleeps",
+          "start": "14:30",
+          "end": "14:45",
+          "kind": "session",
+          "description": "Every BigQuery table hides an unanswered question: what sensitive data lives in it, and who's actually allowed to see it? Most data teams answer that manually — one column, one table, one exhausted analyst at a time — while the backlog of ungoverned data keeps growing faster than anyone can review it. This session demos a different approach: a multi-agent system, built on Google's Agent Development Kit and Gemini 2.5 Pro, that discovers PII with Cloud DLP, classifies every column by sensitivity, and enforces column- and row-level security policy — live, against a real BigQuery table, with real GCP APIs and no mocks anywhere. You'll watch the full pipeline run end-to-end in under 10 minutes, with exactly one human decision required. We'll go deep on two things most agentic AI demos skip entirely: how a bring-your-own-key security model lets the customer keep full ownership and instant revocation of their encryption keys, and how the entire Cloud DLP pipeline — job configuration, infoType selection, findings parsing — sets itself up with zero manual configuration. You'll leave with a working mental model of what production-grade agentic infrastructure actually looks like, not a slide of what it might look like someday.",
+          "speakers": [
+            {
+              "name": "Warun Kumar",
+              "title": "Cloud Engineer",
+              "company": "Google"
+            },
+            {
+              "name": "Thangaraju Rajasekaran",
+              "title": "Cloud Consultant, AI & Specialized",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-9",
+          "title": "Shattering Silos: Building an Open Lakehouse with Apache Iceberg on Google Cloud",
+          "start": "14:45",
+          "end": "15:00",
+          "kind": "session",
+          "description": "Data is often scattered across multiple environments, leading to fragmented insights, complex ETL pipelines, and vendor lock-in. Enter the open lakehouse architecture powered by Apache Iceberg. In this fast-paced session, we will explore how Google Cloud embraces open standards to help you build a unified, flexible data foundation, with a spotlight on the newly introduced Lakehouse Iceberg Catalog. We will dive into how this new service simplifies Iceberg tables management and enables seamless interoperability across your preferred query engines. We will also highlight how Cross-Cloud Lakehouse capabilities allow you to analyze data residing in other cloud providers directly from Google Cloud - without building new data pipelines. The core of our session will be a focused live demo showcasing the Lakehouse Iceberg Catalog in action. Whether you are a Data Engineer, Architect, or Analytics Lead, you will leave with a practical understanding of how to implement a future-proof, open-format lakehouse that breaks down silos on Google Cloud.",
+          "speakers": [
+            {
+              "name": "Michał Misiewicz",
+              "title": "Data Analytics Expert and CTO",
+              "company": "Datumo"
+            }
+          ]
+        },
+        {
+          "id": "live-10",
+          "title": "Coffee Break",
+          "start": "15:00",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "live-11",
+          "title": "The agent that found the loophole: AlphaEvolve, WeatherNext 3 and the Baltic power",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "A real experiment on Google Cloud: on 22 August 2026 a storm crossed the Gulf of Riga. Google's WeatherNext 3 forecast it as 64 versions of tomorrow: 45% of them pointed to turbine shutdown, while the single best guess said calm. We then asked AlphaEvolve, Google's evolutionary coding agent on Google Cloud, to write a better day-ahead trading rule for a Lithuanian wind portfolio. This session shows what agents can and cannot do and how we should look at the weather data.",
+          "speakers": [
+            {
+              "name": "Marcin Bawor",
+              "title": "Data Analytics Sales Specialist",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-12",
+          "title": "LPP Agentic Platform: Conversational Analytics You Can Trust",
+          "start": "15:45",
+          "end": "16:00",
+          "kind": "session",
+          "description": "Building agents is easy; making them traceable, reusable, and trustworthy for production is the hard part. In this session we go under the hood of LPP's Agentic Platform and the architecture behind it: low-level process logging that makes every reasoning and tool-use step auditable, an agent editor framework for composing and reusing agents modularly, and an evaluation-and-reporting layer that measures output quality and consistency - turning \"it seems to work\" into evidence we can stand behind. Together, these foundations make the system ready for proactive analytics: autonomous processes that surface insights on their own, without waiting to be asked.",
+          "speakers": [
+            {
+              "name": "Krzysztof Budnik",
+              "title": "Data & AI Engineer",
+              "company": "Silky Coders/LPP"
+            }
+          ]
+        },
+        {
+          "id": "live-13",
+          "title": "From Digital Twin to Reality: Architecting the Full-Stack for Physical AI",
+          "start": "16:00",
+          "end": "16:15",
+          "kind": "session",
+          "description": "The robotics market is expected to reach $73B by 2030, and companies are relying on robots more than ever before. Still, safely moving a robot from digital code to the real world is a huge challenge. This technical session dissects the integrated Google Cloud and NVIDIA stack powering modern Physical AI. We walk through the end-to-end \"\"Real2Sim\"\" pipeline-from ingestion in Cloud Storage and BigQuery, automated 3D scene reconstruction, to running high-fidelity physics simulations in NVIDIA Isaac Sim on G4 VM with RTX6000 GPU.",
+          "speakers": [
+            {
+              "name": "Agnieszka Koziorowska",
+              "title": "AI Infrastructure Customer Engineer",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-14",
+          "title": "The New SEO: Optimizing Google Cloud Compute for Intent-Based Agentic Experiences",
+          "start": "16:15",
+          "end": "16:30",
+          "kind": "session",
+          "description": "As autonomous AI agents (such as Claude Code, Cursor, or custom in-cluster controllers) quickly become the primary consumers of cloud infrastructure APIs, platforms must evolve beyond human-centric consoles. To deliver the best developer experience, cloud substrates must be optimized for machine comprehension, fast validation, and robust context ingestion— a paradigm shift known as Infrastructure SEO. In this session, we will explore how Google Cloud is re-architecting GKE and GCE to act as the optimal agent-native substrate. Through selected live demonstrations, we will showcase how agents programmatically execute cross-cloud migrations, leverage real-time capacity obtainability telemetry to improve the experience around obtainability, and proactively resolve incidents while still keeping human in the loop. Attendees will walk away with a concrete technical blueprint for securing, validating, and optimizing infrastructure built for the agentic era.",
+          "speakers": [
+            {
+              "name": "Ewelina Sklodowska",
+              "title": "Product Manager",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "live-15",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "live-16",
+          "title": "Shift Left Without Slowing Down: Jak zabezpieczyć CI/CD i wykrywać zagrożenia w całym SDLC",
+          "start": "16:45",
+          "end": "17:00",
+          "kind": "session",
+          "description": "Shift left sounds great in theory, but when poorly implemented, it can quickly turn a CI/CD pipeline into a collection of slow, ignored security checks. In this presentation, we will show how to integrate security throughout the software development lifecycle—from the first commit, through dependencies, Infrastructure as Code, and container images, all the way to production deployment. Using a Google Cloud pipeline as an example, we will discuss code, secret, and dependency scanning; SBOM generation; policy as code; and blocking deployments that fail to meet security requirements. We will also demonstrate how to centrally aggregate findings, reduce false positives, and quickly identify which team should remediate each issue. Participants will learn an approach that enables organizations to detect vulnerabilities earlier, maintain control over the software supply chain, and improve security without slowing developers down. Key takeaways: Where to place security controls across CI/CD and the SDLC Which issues should block the pipeline immediately and which can be addressed later How to secure artifacts and the software supply chain How to consolidate findings from multiple scanners into one clear, manageable process How to measure the effectiveness of shift left without compromising the developer experience",
+          "speakers": [
+            {
+              "name": "Michal Siemieniuk",
+              "title": "Director Cloud Services",
+              "company": "Trafford IT"
+            }
+          ]
+        },
+        {
+          "id": "live-17",
+          "title": "From Models to Harness: What is More Important?",
+          "start": "17:00",
+          "end": "17:15",
+          "kind": "session",
+          "description": "Software engineering is shifting from casual, prompt-heavy \"vibe coding\" to disciplined \"agentic engineering\". This session addresses the critical misconception that raw AI models are sufficient for production workflows. We demonstrate that the \"harness\"-the environment of tools, state, guardrails, and structured context-is 90% of the system and the primary driver of reliability and performance. Participants will learn why investing in harness architecture and dynamic skill execution is a higher-leverage strategy than focusing solely on model selection.",
+          "speakers": [
+            {
+              "name": "Leszek Wojnarski",
+              "title": "Cloud Architect. Global Delivery Center",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "live-18",
+          "title": "Resilient & Sovereign: Engineering Portability with Red Hat on Google Cloud",
+          "start": "17:15",
+          "end": "17:30",
+          "kind": "session",
+          "description": "As regulations such as DORA reshape cloud strategy, organizations need to combine data sovereignty with operational resilience, regulatory compliance, and the flexibility to innovate across hybrid environments. This technical session explores how Red Hat OpenShift on Google Cloud enables a sovereign-by-design architecture, providing a consistent application platform that helps organizations take advantage of Google Cloud innovation while extending trusted operational practices across hybrid environments. We will demonstrate how workload portability, policy-as-code, and verifiable software supply chains can strengthen resilience and compliance while reducing operational complexity. We will also showcase how Red Hat’s latest AI-powered capabilities and agents on Google Cloud can help technical teams simplify platform operations, accelerate troubleshooting, and focus more of their time on innovation.",
+          "speakers": [
+            {
+              "name": "Marek Martofel",
+              "title": "Cloud Native and Container Platform Lead, CEE",
+              "company": "Red Hat"
+            }
+          ]
+        },
+        {
+          "id": "live-19",
+          "title": "Cut SaaS subscriptions costs: Building an internal HR tool from scratch in Google Cloud",
+          "start": "17:30",
+          "end": "17:45",
+          "kind": "session",
+          "description": "Building software has never been cheaper, yet companies are still paying very expensive bills for SaaS tools: Task management, Project management, Human Resources... Some of them are very complex and worth to delegate on third parties, but most likely there is at least one of them that can be replaced by an in-house solution made in less than 1 hour. In this talk we are going to see how to create an in-house HR tool for Time Tracking and Time Off management without writing a single line of code, using AI Studio and Google Cloud Run.",
+          "speakers": [
+            {
+              "name": "Manu Báez",
+              "title": "Software Engineer III, Fullstack",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "live-20",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Fortifying the Cloud: Security, Sovereignty & Digital Resilience",
+      "short": "Security",
+      "sessions": [
+        {
+          "id": "security-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "security-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "security-3",
+          "title": "Coffee Break",
+          "start": "11:00",
+          "end": "11:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "security-4",
+          "title": "Migracja środowiska legacy, a innowacja od zera: Nawigowanie po hybrydowej chmurze danych w bankowości.",
+          "start": "11:30",
+          "end": "11:45",
+          "kind": "session",
+          "description": "Rozmowa o jednym z największych projektów Data Cloud w polskiej bankowości. Znalezienie właściwej równowagi między migracją złożonych, lokalnych środowisk legacy (on-premise), a budowaniem natywnych chmurowych platform danych.",
+          "speakers": [
+            {
+              "name": "Artur Zagrajek",
+              "title": "Leader of Data & Information Center",
+              "company": "Bank Pekao"
+            }
+          ]
+        },
+        {
+          "id": "security-5",
+          "title": "How to use Chrome Enterprise to govern AI within your business",
+          "start": "11:45",
+          "end": "12:00",
+          "kind": "session",
+          "description": "For Polish businesses, the browser is the ultimate gateway to the internet and AI—and it should be your frontline of defense. By harnessing real-time telemetry from Web Risk, Google Threat Intelligence and DLP inside browser engine, Chrome Enterprise Premium transforms Chrome into an intelligent shield, securing your workforce's web access and defending your data, also from shadow AI and shadow SaaS.",
+          "speakers": [
+            {
+              "name": "Hjalmar Lundin",
+              "title": "Chrome Platform Lead, Germany & CE",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "security-6",
+          "title": "Szybsza praca dzięki MCP. Nasze dane i wiedza biznesowa w codziennej pracy z AI",
+          "start": "12:00",
+          "end": "12:30",
+          "kind": "session",
+          "description": "Jak przyspieszyć biznes dzięki połączeniu firmowych danych, wiedzy domenowej i AI? Podczas sesji pokażemy drogę Kinguin od integracji rozproszonych źródeł, przez hurtownię w BigQuery i analitykę w Lookerze, po wykorzystanie MCP w codziennej pracy z AI. Na przykładzie Antigravity opowiemy, jak pracownicy mogą samodzielnie szukać odpowiedzi, odkrywać insighty i szybciej przekładać pomysły na proof of concept. Pokażemy, jak wcześniejsza inwestycja w dane staje się fundamentem biznesowego przyspieszenia, przy zachowaniu swobody wyboru narzędzi AI. Przedstawimy również plany wspólnej biblioteki analiz i ich kontekstu, pozwalającej dzielić się wynikami i rozwijać je dalej przez MCP.",
+          "speakers": [
+            {
+              "name": "Marcin Stańczak",
+              "title": "Senior DataOps Engineer",
+              "company": "Kinguin"
+            },
+            {
+              "name": "Dariusz Szamborski",
+              "title": "Data Scientist",
+              "company": "Kinguin"
+            },
+            {
+              "name": "Paweł Roguski",
+              "title": "Head of Startups / SMB / Digital Natives at Operator Chmury Krajowej",
+              "company": "OChK"
+            }
+          ]
+        },
+        {
+          "id": "security-7",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "security-8",
+          "title": "From Potential to Production: Leveraging AI Today in Sovereign Cloud",
+          "start": "14:00",
+          "end": "14:15",
+          "kind": "session",
+          "description": "During this session, we will explore how European companies and public institutions can use open-weight models together with Google Cloud's infrastructure and data products in Google Cloud Dedicated to develop AI applications that meet the strictest data residency requirements. We will showcase an example AI solution developed in collaboration with EPAM and Google.",
+          "speakers": [
+            {
+              "name": "Cagatay Gurturk",
+              "title": "Senior Systems Architect",
+              "company": "EPAM"
+            },
+            {
+              "name": "Farrukh Mushtaq",
+              "title": "Software Engineer",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "security-9",
+          "title": "Preparing Google Cloud load balancers for the post-quantum era",
+          "start": "14:15",
+          "end": "14:45",
+          "kind": "session",
+          "description": "As quantum computing accelerates toward the point when Cryptographically Relevant Quantum Computers (CRQCs) can break classical asymmetric encryption—the foundation of Transport Layer Security (TLS) faces a critical transition. Layer 7 Load Balancers sit directly on the front lines of this boundary, terminating encrypted frontend traffic for global applications. This 15-minute talk breaks down the dual threats facing enterprise TLS architecture and provides a pragmatic roadmap for cloud security leaders and engineers Harvest Now, Decrypt Later (HNDL): Why passively recorded session traffic is at risk today and how deploying hybrid Post-Quantum Key Exchange (X25519MLKEM768) on Google Cloud Load Balancers neutralizes this threat immediately. Cryptographic Impersonation: The challenges of post-quantum digital signatures and why the global Web PKI is shifting toward Merkle Tree Certificates (MTCs) for public endpoints alongside ML-DSA for private PKI Actionable Roadmap: Google Cloud’s timeline leading to 2028/2029 infrastructure readiness, along with immediate configuration steps to validate client ecosystem readiness today.",
+          "speakers": [
+            {
+              "name": "Sebastian Grabski",
+              "title": "Cloud Networking Product Manager",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "security-10",
+          "title": "Czy sieć może przewidywać przyszłość? Data & AI w energetyce",
+          "start": "14:45",
+          "end": "15:00",
+          "kind": "session",
+          "description": "Transformacja energetyczna i gwałtowny wzrost udziału odnawialnych źródeł energii (OZE) stawiają przed operatorami sieci dystrybucyjnych bezprecedensowe wyzwania. Tradycyjna sieć elektroenergetyczna, projektowana dla jednokierunkowych przepływów i stabilnych źródeł, musi stać się elastycznym, dynamicznie reagującym organizmem. Kluczem do tej transformacji nie jest już tylko rozbudowa fizycznej infrastruktury, ale inteligentne zarządzanie danymi. Podczas tej prelekcji przyjrzymy się, jak nowoczesne technologie chmurowe, zaawansowana analityka danych oraz sztuczna inteligencja (Data & AI) pozwalają przejść od biernej obserwacji sieci do predykcji jej zachowań w czasie rzeczywistym.",
+          "speakers": [
+            {
+              "name": "Jaroslaw Sikorski",
+              "title": "Pełnomocnik Zarządu ds. Data Science",
+              "company": "Energa Operator (Grupa Orlen)"
+            }
+          ]
+        },
+        {
+          "id": "security-11",
+          "title": "Coffee Break",
+          "start": "15:00",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "security-12",
+          "title": "Od źródła do wyniku: jak AI czyta polskie przetargi — i dokąd zmierza",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "Jak sprawić, żeby analiza 60–70 stron dokumentacji przetargowej zajmowała nie 45 minut, ale około 90 sekund? Podczas prezentacji pokażę, jak zbudowaliśmy to w platformaOfertowa.pl. Bez “magicznego modelu” i bez slajdów o AGI – po prostu kilka dobrze dobranych elementów: wyszukiwanie hybrydowe, embeddingi, RAG i rekomendacje, które działają na wspólnym fundamencie. Druga część będzie o tym, co zmienia się właśnie teraz: dlaczego rozważaliśmy aby przejść na self-host modeli na Google Cloud, co naprawdę oznacza koszt AI w produkcji i dlaczego w najbliższych latach coraz większe znaczenie będą miały energia, dane i AI Act. To prezentacja o konkretnych decyzjach architektonicznych i doświadczeniach z produkcji, a nie o obietnicach AI.",
+          "speakers": [
+            {
+              "name": "Jędrzej Anuszkiewicz-Michałek",
+              "title": "Strategia i kierunek",
+              "company": "OpenNexus"
+            },
+            {
+              "name": "Artur Janecki",
+              "title": "AI i automatyzacje",
+              "company": "OpenNexus"
+            }
+          ]
+        },
+        {
+          "id": "security-13",
+          "title": "Chrome Enterprise Premium: trzy filary bezpieczeństwa",
+          "start": "15:45",
+          "end": "16:00",
+          "kind": "session",
+          "description": "Omówimy trzy główne filary bezpieczeństwa w Chrome Enterprise. W obszarze bezpieczeństwa danych nacisk położono na kierowanie użytkowników z niezatwierdzonych narzędzi \"Shadow AI\" do oficjalnych rozwiązań oraz zapobieganie wyciekom poprzez automatyczne blokowanie zrzutów ekranu, kopiowania i udostępniania wrażliwych danych firmowych, w tym na urządzeniach mobilnych. Drugi filar, wykrywanie i widoczność, zapewnia monitorowanie wizyt w nieautoryzowanych narzędziach AI oraz strumieniowe przesyłanie telemetrii przeglądarki w czasie rzeczywistym do platform SIEM/XDR, takich jak Splunk, CrowdStrike czy Google SecOps. Z kolei zarządzanie i dostęp warunkowy (CAA) opiera się na ocenie m.in. wersji systemu operacyjnego, poziomu poprawek i lokalizacji przed przyznaniem dostępu, przesyłając te sygnały w czasie rzeczywistym bezpośrednio do głównych systemów tożsamości: Okta, Ping i Google.",
+          "speakers": [
+            {
+              "name": "Michał Gołda",
+              "title": "Product Manager",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "security-14",
+          "title": "Securing the AI Frontier",
+          "start": "16:00",
+          "end": "16:30",
+          "kind": "session",
+          "description": "AI is rapidly changing how organizations build and operate in the cloud. This session explores the evolving AI security landscape and how teams can both secure their use of AI and use AI to improve security outcomes. Learn how Wiz delivers visibility, context-driven risk insights, and protection across the AI application stack.",
+          "speakers": [
+            {
+              "name": "Florian Giner",
+              "title": "Customer Engineer",
+              "company": "WIZ"
+            }
+          ]
+        },
+        {
+          "id": "security-15",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "security-16",
+          "title": "Trust Nothing. Protect Everything. Why Pay More for Less? Optimize performance, reduce costs, and keep your data protected with AMD SEV on Google Cloud.",
+          "start": "16:45",
+          "end": "17:00",
+          "kind": "session",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Michal Kitowski",
+              "title": "Head of Google Cloud",
+              "company": "Endava"
+            },
+            {
+              "name": "Lukasz Wolynski",
+              "title": "Google Cloud Architect",
+              "company": "Endava"
+            }
+          ]
+        },
+        {
+          "id": "security-17",
+          "title": "Securing the Agentic Future: Zero-Trust Multi-Agent Architectures with Agent Gateway",
+          "start": "17:00",
+          "end": "17:30",
+          "kind": "session",
+          "description": "As AI agents evolve from isolated bots to interconnected ecosystems, securing their interactions with tools, APIs, and other agents has become a massive enterprise challenge. Enter Agent Gateway—the core networking and security proxy for the Gemini Enterprise Agent Platform. In this session, we will explore how to solve the M×N integration problem of agent-to-tool connectivity while enforcing zero-trust boundaries. Drawing on real-world enterprise architectures (including highly regulated financial deployments), attendees will learn how to manage agent identities with SPIFFE/mTLS, implement inline PII redaction using Model Armor, and safely deploy multi-agent systems at scale without compromising data sovereignty.",
+          "speakers": [
+            {
+              "name": "Warun Kumar",
+              "title": "Cloud Engineer",
+              "company": "Google"
+            },
+            {
+              "name": "Thangaraju Rajasekaran",
+              "title": "Cloud Consultant, AI & Specialized",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "security-18",
+          "title": "Safer, compliant AI with Google's ISV ecosystem",
+          "start": "17:30",
+          "end": "17:45",
+          "kind": "session",
+          "description": "Google's sophisticated and powerful controls and security technologies enable you to build your best product without compromising on data sovereignty, security, or performance.",
+          "speakers": [
+            {
+              "name": "Daniel Roman",
+              "title": "ISV Sales Specialist, Startups-North & CEE Enterprise",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "security-19",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "name": "From Spark to Scale: Driving Startup Growth with AI",
+      "short": "Startups",
+      "sessions": [
+        {
+          "id": "startups-1",
+          "title": "Registration",
+          "start": "08:00",
+          "end": "09:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "startups-2",
+          "title": "Opening Keynote",
+          "start": "09:30",
+          "end": "11:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Tara Brady",
+              "title": "President, EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Krzysztof Kaziów",
+              "title": "Director Customer Engineering CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Ravi Rajamani",
+              "title": "Vice President, Engineering, Applied AI",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Alicja Cade",
+              "title": "Senior Director, Office of the CISO",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Cyril Cymbler",
+              "title": "Managing Director, Data and Analytics EMEA",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Sławomir Staszak",
+              "title": "Vice-President of the Management Board",
+              "company": "Orlen"
+            },
+            {
+              "name": "Beata Podleśna-Gumkowska",
+              "title": "Director of New Consumer Business",
+              "company": "InPost"
+            },
+            {
+              "name": "Waldemar Pawlak",
+              "title": "President",
+              "company": "Polish Volunteer Fire Department"
+            },
+            {
+              "name": "Kacper Nowicki",
+              "title": "CEO & Co-Founder",
+              "company": "Nomagic"
+            }
+          ]
+        },
+        {
+          "id": "startups-3",
+          "title": "Coffee Break",
+          "start": "11:00",
+          "end": "11:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "startups-4",
+          "title": "Opening Keynote",
+          "start": "11:30",
+          "end": "12:00",
+          "kind": "plenary",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Itxaso Araque",
+              "title": "Director, Digital Natives & Startups, EMEA North",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Diana Nanova",
+              "title": "Head of Customer Engineering, Digital Natives, EMEA North",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Filip Grządkowski",
+              "title": "VP of Engineering",
+              "company": "NoMagic"
+            }
+          ]
+        },
+        {
+          "id": "startups-5",
+          "title": "Poland as the Launchpad: Google, Deloitte and Investors perspective",
+          "start": "12:00",
+          "end": "12:30",
+          "kind": "session",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Michał Kramarz",
+              "title": "Head of Incubation & Acceleration CEE",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Tomasz Konik",
+              "title": "CEO",
+              "company": "Deloitte"
+            },
+            {
+              "name": "Bartosz Lipnicki",
+              "title": "Managing Director",
+              "company": "Endeavour"
+            }
+          ]
+        },
+        {
+          "id": "startups-6",
+          "title": "Lunch and networking",
+          "start": "12:30",
+          "end": "14:00",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "startups-7",
+          "title": "Quo Vadis AI",
+          "start": "14:00",
+          "end": "14:30",
+          "kind": "session",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Guillaume Vernade",
+              "title": "Gemini Developer Advocate",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "startups-8",
+          "title": "InPost × Zowie - Under the Hood of an AI Agent: The Technical Story Behind Scaling to 50,000 Contacts a Day",
+          "start": "14:30",
+          "end": "15:00",
+          "kind": "session",
+          "description": "Every day, InPost’s AI agent handles 50,000 customer contacts across three markets and three channels: chat, email and voice. In this session, InPost and Zowie take you under the hood of how we got there. We’ll walk through the real challenges of going live: handling multiple languages, keeping the experience consistent from chat, email to phone call, and integrating natively into InPost’s mobile app and website. We will explain why Gemini was selected as the best choice.",
+          "speakers": [
+            {
+              "name": "Piotr Kubala",
+              "title": "Senior NLP Solution Designer",
+              "company": "InPost"
+            },
+            {
+              "name": "Michał Partyka",
+              "title": "CTO",
+              "company": "Zowie"
+            }
+          ]
+        },
+        {
+          "id": "startups-9",
+          "title": "Coffee Break",
+          "start": "15:00",
+          "end": "15:30",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "startups-10",
+          "title": "Architecting high-volume data enrichment in retail AI: Open weights vs. consumption models",
+          "start": "15:30",
+          "end": "15:45",
+          "kind": "session",
+          "description": "Join Omer Fatih Ozden (CPO, Replenit), Egemen Akdan (CTO,Replenit) and Zuza Bochenek (Customer Engineer, Google Cloud) as they discuss Replenit's journey in scaling an inference system using the Gemma 26B model. Learn how Replenit leveraged Google Cloud's version 6 Trillium TPUs to overcome scaling latencies and capacity constraints associated with high-volume AI pipelines while complying with EU sovereignty requirements. This session will dive into the technical details of optimizing vLLM for prefill-heavy workloads, managing Key-Value cache in High Bandwidth Memory, and using Data Center Workload Services (DWS) for efficient capacity planning, while also providing an overview of Google's broader TPU strategy.",
+          "speakers": [
+            {
+              "name": "Omer Fatih Ozden",
+              "title": "CPO",
+              "company": "Replenit"
+            },
+            {
+              "name": "Egemen Akdan",
+              "title": "CTO",
+              "company": "Replenit"
+            },
+            {
+              "name": "Zuza Bochenek",
+              "title": "Customer Engineer, Startups EMEA North",
+              "company": "Google"
+            }
+          ]
+        },
+        {
+          "id": "startups-11",
+          "title": "Zodi AI platform: From millions of data points to marketing ROI",
+          "start": "15:45",
+          "end": "16:00",
+          "kind": "session",
+          "description": "Imagine that instead of a week of research, you type in a brief, and AI builds a shortlist of influencers, justifies the selection, estimates the cost, and shows the potential ROI. That is exactly Zodi: an AI-centric OS for influencer marketing. In 15 minutes, we will show how such a system turns data chaos into a complete campaign decision. This will not be a presentation about the future of AI, but a demonstration of a system that is already taking over operational marketing work today.",
+          "speakers": [
+            {
+              "name": "Łukasz Misiukanis",
+              "title": "CEO",
+              "company": "Zodi Labs"
+            },
+            {
+              "name": "Marcin Tabędzki",
+              "title": "CTO",
+              "company": "Zodi Labs"
+            }
+          ]
+        },
+        {
+          "id": "startups-12",
+          "title": "Running a hybrid LLM stack using medical data on GKE in a regulated healthcare company",
+          "start": "16:00",
+          "end": "16:15",
+          "kind": "session",
+          "description": "At Jutro Medical, AI supports doctors on a daily basis. LLM-supported telemedicine visits, speech-to-text medical documentation, automated e-referral and e-prescription drafts, and AI triage safety nets run in production, in a regulated primary-care setting, for tens of thousands of patients. The results are concrete: 80% of AI-generated medical interview and recommendation fields are accepted by doctors without manual edits, and a full referral visit takes a doctor 5 clicks. This session goes under the hood of the platform that makes this possible. We will show how Google Kubernetes Engine serves as the backbone for AI services and self-hosted models, how we combine self-hosted inference with external LLM APIs behind a single serving layer, and how we track, evaluate, and guard production models: full LLM observability, systematic evals, guardrails on assistant responses, and safety models that redirect patients to human triage when the AI path is not the right one. We will also cover what \"regulated environment\" means in practice for us and how we utilise GCP to achieve this.",
+          "speakers": [
+            {
+              "name": "Maciej Chamera",
+              "title": "CTO",
+              "company": "Jutro Medical"
+            }
+          ]
+        },
+        {
+          "id": "startups-13",
+          "title": "Agentic engineering: the difference between a 1.5x, a 3x and a 10x developer",
+          "start": "16:15",
+          "end": "16:30",
+          "kind": "session",
+          "description": "We've all heard the claims about 10x and 100x developers. Every team uses AI now, yet most land around 1.5x — better, but nowhere near the promise. This session skips the pitch and looks at what actually separates the tiers. Hint: The gap is rarely the model.",
+          "speakers": [
+            {
+              "name": "Marek Kirejczyk",
+              "title": "CTO & Co-founder",
+              "company": "Vlayer"
+            }
+          ]
+        },
+        {
+          "id": "startups-14",
+          "title": "Coffee Break",
+          "start": "16:30",
+          "end": "16:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        },
+        {
+          "id": "startups-15",
+          "title": "Panel Discussion with Founders' AI Journeys",
+          "start": "16:45",
+          "end": "17:15",
+          "kind": "session",
+          "description": "Speakers: Moderator: Diana Nanova Panelists: Kacper Tokarczyk, autoMEE, Oskar Kwasniewski, TesterArmy, Alexey Sokolsky, AIstats",
+          "speakers": [
+            {
+              "name": "Diana Nanova",
+              "title": "Head of Customer Engineering, Digital Natives, EMEA North",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Kacper Tokarczyk",
+              "title": "Co-Founder",
+              "company": "autoMEE"
+            },
+            {
+              "name": "Oskar Kwaśniewski",
+              "title": "CTO/Co-Founder",
+              "company": "TesterArmy"
+            },
+            {
+              "name": "Alexey Sokolsky",
+              "title": "CTO & Co-Founder",
+              "company": "AIstats"
+            }
+          ]
+        },
+        {
+          "id": "startups-16",
+          "title": "AI Agents Hackathon: Winners announcements & solutions showcase",
+          "start": "17:15",
+          "end": "17:35",
+          "kind": "session",
+          "description": "Winners: Blurrix Technologies, Lucius AI, ZvonAI",
+          "speakers": []
+        },
+        {
+          "id": "startups-17",
+          "title": "Closing & Startups group photo",
+          "start": "17:35",
+          "end": "17:45",
+          "kind": "session",
+          "description": null,
+          "speakers": [
+            {
+              "name": "Itxaso Araque",
+              "title": "Director, Digital Natives & Startups, EMEA North",
+              "company": "Google Cloud"
+            },
+            {
+              "name": "Diana Nanova",
+              "title": "Head of Customer Engineering, Digital Natives, EMEA North",
+              "company": "Google Cloud"
+            }
+          ]
+        },
+        {
+          "id": "startups-18",
+          "title": "End",
+          "start": "17:45",
+          "end": "17:45",
+          "kind": "break",
+          "description": null,
+          "speakers": []
+        }
+      ]
+    }
+  ]
+}
